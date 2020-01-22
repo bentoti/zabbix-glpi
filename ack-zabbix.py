@@ -20,3 +20,5 @@ conexao = ZabbixAPI(server = server)
 conexao.login(username, password)
 
 reconhecer_evento = conexao.event.acknowledge({"eventids": sys.argv[1], "message": "Ticket " + str(sys.argv[2]) + " criado no OTRS."})
+
+# Esse código foi publicado originalmete pelo @Janssen dos Reis Lima
