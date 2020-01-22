@@ -54,3 +54,5 @@ if estado_trigger == "OK":
     fecharTicket()
 else:
     abrirTicket()
+
+# Esse código foi publicado originalmete pelo @Janssen dos Reis Lima
