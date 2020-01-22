@@ -1,6 +1,6 @@
 <?php
 // ----------------------------------------------------------------------------------------
-// Autor: Vitor Mazuco <vitor.mazuco@gmail.com>
+// Modificado por: Vitor Mazuco <vitor.mazuco@gmail.com>
 // Script: tickets_zabbix_glpi.php
 // Contribuição da Equipe de TI do Hospital das Forças Armadas - HFA para conexão em Banco MariaDB 10
 // Ultima Atualizacao: 01/10/2018
@@ -252,3 +252,6 @@ switch ($event) {
 			}
 }
 ?>
+
+// Esse código foi publicado originalmete pelo @Janssen dos Reis Lima
+
