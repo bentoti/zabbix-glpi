@@ -5,7 +5,7 @@
 from zabbix_api import ZabbixAPI
 import sys
  
-server = "http://localhost/zabbix"
+server = "http://127.0.0.1/zabbix"
 username = "Admin"             
 password = "zabbix"     
  
