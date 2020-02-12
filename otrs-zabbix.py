@@ -1,12 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
+# otrs-zabbix.py
 
 """
   Abrir e fechar registros no no OTRS via API 
   a partir de um problema identificado pelo Zabbix
-
-
-  Modificado em 04 de outubro de 2017
+  Alterado para Python3 em 12 de ferereiro de 2020
   por Vitor Mazuco (vitor.mazuco@gmail.com)
 """
 
@@ -41,7 +40,7 @@ def abrirTicket():
 
     ticket_id, numero_ticket = client.tc.TicketCreate(t, a, [df1, df2, df3])
 
-    comando = "python /usr/lib/zabbix/externalscripts/ack-zabbix.py " + str(evento) + " " + str(numero_ticket)
+    comando = "python3 /usr/lib/zabbix/externalscripts/ack-zabbix.py " + str(evento) + " " + str(numero_ticket)
     os.system(comando)
 
 def fecharTicket():
