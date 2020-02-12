@@ -14,4 +14,4 @@ conexao.login(username, password)
 
 reconhecer_evento = conexao.event.acknowledge({"eventids": sys.argv[1], "message": "Ticket " + str(sys.argv[2]) + " criado no GLPI."})
 
-# Esse código foi publicado originalmete pelo @Janssen dos Reis Lima
+# Esse código foi publicado originalmete pelo https://github.com/janssenlima/zabbix-glpi
