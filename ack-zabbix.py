@@ -1,5 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
+# ack-zabbix.py
 
 """
   Este script é executado automaticamente apos a abertura do ticket no OTRS
