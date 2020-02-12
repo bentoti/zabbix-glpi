@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+# ack_zabbix_glpi.py
 ## Modificado por: Vitor Mazuco / vitor.mazuco@gmail.com>
-## Ultima atualizacao: 27/09/2017
+## Ultima atualizacao: 12 de fevereiro
 ## Observacoes: Este script é executado automaticamente apos a abertura do ticket no GLPI
 
 from zabbix_api import ZabbixAPI
