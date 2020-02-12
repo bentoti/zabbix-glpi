@@ -2,7 +2,7 @@
 Debugger:
   DebugThreshold: debug
   TestMode: '0'
-Description: Integração OTRS-Zabbix VMZ Solutions contato@vmzsolutions.com.br
+Description: Integração OTRS-Zabbix
 FrameworkVersion: 5.0.13
 Provider:
   Operation:
