@@ -54,4 +54,7 @@ if estado_trigger == "OK":
 else:
     abrirTicket()
 
-# Esse código foi publicado originalmete: https://github.com/janssenlima/zabbix-glpi
+# Esse código foi publicado originalmete: 
+# https://github.com/janssenlima/zabbix-glpi
+# https://github.com/ewsterrenburg/python-otrs
+
