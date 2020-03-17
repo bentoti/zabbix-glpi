@@ -6,7 +6,7 @@
   Este script é executado automaticamente apos a abertura do ticket no OTRS
 
 
-  Modificado em 04 de outubro de 2017
+  Modificado em 17 de março de 2020
   por Vitor Mazuco (vitor.mazuco@gmail.com)
 """
 
